@@ -10,13 +10,19 @@ Sebuah program sederhana yang memungkinkan kamu mengemulasi / simulasi / istilah
 
 ---
 
+## README
+
+1. [Indonesia](./README.md)
+2. [English](./README_EN.md)
+
+
 ## Inti Penting
 
 program ini memungkinkan controller bluetoth kamu menjadi layaknya kabel sehingga kontroller switch bisa berkamuflase layaknya menggunakan usb dan sebagai device lain
 
 ## Supported Fake Gamepad
 
-untuk saat ini hanya sedikit yang bisa saya emulasi, jadi misal kontroller game pad kamu *NINETENDO SWITCH PRO CONTROLLER* atau apapun itu kamu bisa menjadikan controller kamu di bawah ini
+untuk saat ini hanya sedikit yang bisa saya emulasi, jadi misal kontroller game pad kamu **NINETENDO SWITCH PRO CONTROLLER** atau apapun itu kamu bisa menjadikan controller kamu di bawah ini
 
 1. [x] ps4
 2. [x] ps5
@@ -47,17 +53,17 @@ Ini hanya sebuah program edukasi, tidak ada maksud untuk mengajak orang tidak me
 
 Saat ini hanya tersedia linux, untuk platform lain saya belum terlalu minat karena saat ini saya main game hanya menggunakan linux terutama ubuntu 24
 
-rm -rf *.deb
-wget --continue 
-sudo dpkg --force-all -i 
+rm -rf swap_controller.deb
+wget --continue https://github.com/azkadev/swap_controller/swap_controller.deb
+sudo dpkg --force-all -i swap_controller.deb
 
 
 ## Update Akan Datang
 
 saat ini saya sedang sedikit sibuk, ini adalah beberapa fitur yang mungkin akan datang
 
-1. [ ] Remapping
-2. [ ] Multi Controller
+1. [ ] Remapping Custom
+2. [ ] Multi Player Controller (Player 2,3,4 and more)
 
 jika kamu merasa ingin saya segera update silahkan bantu saya dengan cara di bawah ini ya
 
@@ -70,3 +76,12 @@ Terimakasih
 
 
 Azkadev - 18-07-2025
+
+
+
+## Tags
+
+- reWaSd Linux
+- mapping gamepad linux
+- gamepad linux
+- fake device
