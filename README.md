@@ -53,10 +53,11 @@ Ini hanya sebuah program edukasi, tidak ada maksud untuk mengajak orang tidak me
 
 Saat ini hanya tersedia linux, untuk platform lain saya belum terlalu minat karena saat ini saya main game hanya menggunakan linux terutama ubuntu 24
 
-rm -rf swap_controller.deb
-wget --continue https://github.com/azkadev/swap_controller/swap_controller.deb
-sudo dpkg --force-all -i swap_controller.deb
-
+```bash
+rm -rf swap-controller.deb
+wget --continue https://github.com/azkadev/swap_controller/releases/download/latest/swap-controller.deb
+sudo dpkg --force-all -i swap-controller.deb
+```
 
 ## Update Akan Datang
 
