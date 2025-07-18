@@ -1,0 +1,40 @@
+name: 'swap_controller_project'
+description: 'swap_controller is program for help you, booster up your projects significants with amazing features and super easy for use'
+version: '0.0.0'
+platforms:
+  android: null
+  ios: null
+  linux: null
+  macos: null
+  web: null
+  windows: null
+environment:
+  sdk: '>=3.6.0 <4.0.0'
+dependencies:
+  path: '^1.9.0'
+  yaml: '^3.1.3'
+dev_dependencies:
+  lints: '^5.0.0'
+  test: 'any'
+dependency_overrides:
+  http:
+    path: '../../../../.pub-cache/hosted/pub.dev/http-1.3.0'
+  mime: '^2.0.0'
+  pointycastle: '^4.0.0'
+project:
+  type: ''
+  is_use_direct_package: true
+  is_private: true
+  developers:
+    - username: ''
+      note: ''
+      social_medias:
+        - 'https://github.com'
+funding:
+  - 'https://github.com/sponsors/azkadev'
+  - 'https://github.com/sponsors/generalfoss'
+  - 'https://github.com/sponsors/general-developer'
+homepage: 'https://youtube.com/{youtube_username}'
+repository: 'https://github.com/{github_username}/{repository_name}'
+issue_tracker: 'https://t.me/DEVELOPER_GLOBAL_PUBLIC'
+documentation: 'https://youtube.com/{youtube_username}'
